@@ -9,14 +9,14 @@ function generateMarkdown(data) {
     
  
    ## Table of Contents
-    * Description
-    * Installation
-    * Usage
-    * Tests
-    * Contributing
-    * License
-    * Contact
-    * Repository
+    1. Description
+    2. Installation
+    3.  Usage
+    4.  Tests
+    5.  Contributing
+    6.  License
+    7.  Contact
+    8.  Repository
     
   ***
   ## Description
