@@ -21,11 +21,11 @@ function generateMarkdown(data) {
   ***
   ## Description
   ${data.description}
-  ### Installation 
+  ## Installation 
   ${data.installation}
-  ### Usage 
+  ## Usage 
   ${data.usage}
-  ### Tests 
+  ## Tests 
   ${data.test}
   ## Contributing 
   ${data.contributing}
