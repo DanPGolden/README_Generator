@@ -1,9 +1,13 @@
- 
-   # fs  
+// function to generate markdown for README
+// const questions = require('../../index.js')
+
+function generateMarkdown(data) {
+    return ` 
+   # ${data.title}  
    [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
    ## Description
     
-   fsd
+   ${data.description}
    ## Table of Contents
    <details>
    <summary>Expand to view Table of Contents</summary>
@@ -22,17 +26,21 @@
    </details>
   ## Documentation
   ### Installation 
-  fsd
+  ${data.installation}
   ### Usage 
-  sdf
+  ${data.usage}
   ### Tests 
-  sdf
+  ${data.test}
   ## Contributing 
-  undefined
+  ${data.contributing}
   ## Contact
-  If you have any questions about this project or would like to report a bug, please email sdf 
+  If you have any questions about this project or would like to report a bug, please email ${data.email} 
   ## License 
   This project is licensed under the following license:
-    None
+  \
+  ${data.license}
   - Find out more about this license and others at https://choosealicense.com/
+  `;
+  }
   
+  module.exports = generateMarkdown;
