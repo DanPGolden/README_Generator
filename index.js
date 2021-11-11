@@ -28,11 +28,7 @@ const questions = [
     message: "How do you use it?"
 },
 
-{
-    type: "input",
-    name: "contribution",
-    message: "What is your contribution?"
-},
+
 
 {
     type: "input",
