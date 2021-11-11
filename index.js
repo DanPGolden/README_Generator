@@ -7,38 +7,42 @@ const questions = [
 {
     type: "input",
     name: "title",
-    message: "What is your project title?"
+    message: "What is the name of your project?"
 },
 
 {
     type: "input",
     name: "description",
-    message: "Type description here."
+    message: "Please describe your project."
 },
 
 {
     type: "input",
     name: "installation",
-    message: "How do you install it?"
+    message: "How could a user install this?"
 },
 
 {
     type: "input",
     name: "usage",
-    message: "How do you use it?"
+    message: "How do you use this?"
 },
-
-
 
 {
     type: "input",
     name: "test",
-    message: "How do you run test?"
+    message: "How would you test this application?"
 },
 
 {
+    type: 'input',
+    message: 'List any other contributors on this project (If there are not any contributors, enter "none").',
+    name: 'contributing',
+  },
+
+  {
     type: "list",
-        message: "what is your license? ",
+        message: "What license are you using? ",
         name: "license",
         choices: [
 
@@ -69,16 +73,16 @@ const questions = [
 {
     type: "input",
     name: "repo",
-    message: "What is your repo link?"
+    message: "What is your repository link?"
 },
 
 ];
 
-// function to write README file
+
 function writeToFile(fileName, data) {
     ("README.md", generateMarkdown.generateMarkdown(data), function (err){
         if(err) throw err;
-        console.log("README page has generated.")    
+        console.log("Complete")    
     })
 }
 
@@ -96,7 +100,7 @@ function init() {
                 console.log(err)
             }
             else {
-                console.log('generated README')
+                console.log('README file completed')
             }
         })
     },
@@ -109,5 +113,6 @@ function init() {
     })
 };
 
-// function call to initialize program
+
 init();
+// console.log("This is the README generator")

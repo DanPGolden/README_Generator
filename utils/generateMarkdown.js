@@ -9,12 +9,14 @@ function generateMarkdown(data) {
     
  
    ## Table of Contents
-    1. Description
-    2. Installation
-    3. Usage
-    4. Tests
-    5. Contributing
-    6. Contact
+    * Description
+    * Installation
+    * Usage
+    * Tests
+    * Contributing
+    * License
+    * Contact
+    * Repository
     
   ***
   ## Description
@@ -27,8 +29,13 @@ function generateMarkdown(data) {
   ${data.test}
   ## Contributing 
   ${data.contributing}
+  ## License
+  ${data.license}
   ## Contact
-  If you have any questions about this project or would like to report a bug, please email ${data.email} 
+  If you have any questions about this project or would like to report a bug, please email ${data.username} at ${data.email}
+  ## Repository
+  ${data.repo} 
+
   `;
   }
   
