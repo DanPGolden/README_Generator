@@ -15,12 +15,12 @@ function generateMarkdown(data) {
     <p>
    
     1. [Documentation](#documentation)
-        1. [Installation](#installation)
-        2. [Usage](#usage)
-        3. [Tests](#tests)
-    2. [Contributing](#contributing)
-    3. [Contact](#questions)
-    4. [License](#licence)
+    2. [Installation](#installation)
+    3. [Usage](#usage)
+    4. [Tests](#tests)
+    5. [Contributing](#contributing)
+    6. [Contact](#questions)
+    
    
    </p>
    </details>
@@ -35,11 +35,6 @@ function generateMarkdown(data) {
   ${data.contributing}
   ## Contact
   If you have any questions about this project or would like to report a bug, please email ${data.email} 
-  ## License 
-  This project is licensed under the following license:
-  \
-  ${data.license}
-  - Find out more about this license and others at https://choosealicense.com/
   `;
   }
   
