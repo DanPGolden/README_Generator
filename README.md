@@ -1,35 +1,24 @@
  
-   # Professional README file generator  
-   [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+   # Professional README Generator  
+   [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
    
-    
- 
-   ## Table of Contents
-    1. [Description](#description)
-    2. [Installation](#installation)
-    3. [Usage](#usage)
-    4. [Tests](#tests)
-    5. [Contributing](#contributing)
-    6. [License](#license)
-    7. [Contact](#contact)
-    8. [Repository](#repository)
-    
+  ***
   ***
   ## Description
-  This is a readme file generator that is created in the terminal where the user follows the prompts given
+  This is a professional README generator that is run in the terminal.  Users input their responses from the given questions and a README file is generated in markdown.
   ## Installation 
-  open the terminal and run node index.js. Then follow the questions presented
+  Open the github repository and clone the code onto your machine.
   ## Usage 
-  open the terminal and use
+  Open the terminal in VSC or a similar code editor and run node index.js. Then answer the following questions that are presented.
   ## Tests 
-  test
+  after running it in the terminal the user can view the created file in their text editor
   ## Contributing 
   none
   ## License
-  The Unlicense
+  Apache License 2.0
   ## Contact
   If you have any questions about this project or would like to report a bug, please email Dan Golden at Dangolden@comcast.net
   ## Repository
-  DanPGolden.github.com 
+  DanPGolden@github.com 
 
   
