@@ -3,22 +3,32 @@
    [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
    
   ***
+  # Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Tests](#test)
+  * [Contributing](#contributing)
+  * [License](#license)
+  * [Contact](#contact)
+  
   ***
+  ![README Generator](readmegenerator.gif)
   ## Description
-  This is a professional README generator that is run in the terminal.  Users input their responses from the given questions and a README file is generated in markdown.
+  This is a command line application that dynamically generates a professional README.md file from a user's input
   ## Installation 
-  Open the github repository and clone the code onto your machine.
+  clone repo from GitHub into a code editor such as Visual Studio Code
   ## Usage 
-  Open the terminal in VSC or a similar code editor and run node index.js. Then answer the following questions that are presented.
+  install node.js and then open the terminal in the code editor. Type 'node index.js' in the command line and then follow the prompts
   ## Tests 
-  after running it in the terminal the user can view the created file in their text editor
+  n/a
   ## Contributing 
   none
   ## License
-  Apache License 2.0
+  None
   ## Contact
-  If you have any questions about this project or would like to report a bug, please email Dan Golden at Dangolden@comcast.net
+  If you have any questions about this project or would like to report a bug, please email DanielPGolden at golden.daniel@gmail.com
   ## Repository
-  DanPGolden@github.com 
+  dangolden.github.io/README_Generator/ 
 
   

@@ -7,6 +7,15 @@ function generateMarkdown(data) {
    [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
    
   ***
+  # Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Tests](#test)
+  * [Contributing](#contributing)
+  * [License](#license)
+  * [Contact](#contact)
+  
   ***
   ## Description
   ${data.description}
