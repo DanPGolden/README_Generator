@@ -11,6 +11,8 @@
   * [Contributing](#contributing)
   * [License](#license)
   * [Contact](#contact)
+  * [Repository](#repository)
+  * [Video](#video)
   
   ***
   ![README Generator](readmegenerator.gif)
@@ -30,5 +32,7 @@
   If you have any questions about this project or would like to report an issue, please email Daniel Golden at golden.daniel@gmail.com
   ## Repository
   https://github.com/DanPGolden/README_Generator
+  ## Video
+  https://watch.screencastify.com/v/DntDE9DU1jB1r4T8Nt15
 
   

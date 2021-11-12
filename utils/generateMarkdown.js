@@ -15,6 +15,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [License](#license)
   * [Contact](#contact)
+  * [Repository](#repository)
   
   ***
   ## Description
