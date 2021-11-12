@@ -19,13 +19,13 @@ const questions = [
 {
     type: "input",
     name: "installation",
-    message: "How could a user install this?"
+    message: "What steps are required to install your project?"
 },
 
 {
     type: "input",
     name: "usage",
-    message: "How do you use this?"
+    message: "Please provide instructions on how to use this application. ?"
 },
 
 {
@@ -47,11 +47,11 @@ const questions = [
         choices: [
 
                 "None",
-                "Apache",
-                "Academic",
+                "Apache License 2.0",
+                "The Unlicense",
+                "Boost Software License 1.0",
                 "GNU",
-                "ISC",
-                "MIT",
+                "MIT License",
                 "Mozilla",
                 "Open"
 
@@ -78,7 +78,7 @@ const questions = [
 
 ];
 
-
+//*************************************************** */
 function writeToFile(fileName, data) {
     ("README.md", generateMarkdown.generateMarkdown(data), function (err){
         if(err) throw err;
@@ -86,14 +86,9 @@ function writeToFile(fileName, data) {
     })
 }
 
-// function to initialize program
+//************************************************** */
 function init() {
     inquirer.prompt(questions).then(function(userInfo) {
-        // userInfo is an object
-        // const userInfo = {
-            //title: title from the user
-            //description: description from the user
-        // }
         const markdownString = generateMarkdown(userInfo)
         fs.writeFile('README.md', markdownString, function(err) {
             if(err) {
@@ -104,10 +99,7 @@ function init() {
             }
         })
     },
-    // make the questions in the questions array
-    // finish making the string that will be turned into the markdown file
-    // the string will be in the generateMarkdown function {
-     
+    
      e => {
         console.log(`The file could not be generated because the user does not exist.`);
     })
