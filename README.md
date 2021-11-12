@@ -15,20 +15,20 @@
   ***
   ![README Generator](readmegenerator.gif)
   ## Description
-  This is a command line application that dynamically generates a professional README.md file from a user's input
+  This is a command line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. A user can quickly and easily create a README file by using a command-line application to generate one. This allows the user to devote more time to working on the project.
   ## Installation 
-  clone repo from GitHub into a code editor such as Visual Studio Code
+  To install this application the user must clone the repository from GitHub into a code editor such as Visual Studio Code
   ## Usage 
-  install node.js and then open the terminal in the code editor. Type 'node index.js' in the command line and then follow the prompts
+  The user must install node.js and then open the terminal in their code editor. From the command-line, the user is to type 'node index.js' to invoke the application. The user will then follow the prompts given.
   ## Tests 
   n/a
   ## Contributing 
-  none
+  None
   ## License
   None
   ## Contact
-  If you have any questions about this project or would like to report a bug, please email DanielPGolden at golden.daniel@gmail.com
+  If you have any questions about this project or would like to report an issue, please email Daniel Golden at golden.daniel@gmail.com
   ## Repository
-  dangolden.github.io/README_Generator/ 
+  https://github.com/DanPGolden/README_Generator
 
   

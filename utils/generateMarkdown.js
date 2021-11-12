@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   ## Contact
-  If you have any questions about this project or would like to report a bug, please email ${data.username} at ${data.email}
+  If you have any questions about this project or would like an issue, please email ${data.username} at ${data.email}
   ## Repository
   ${data.repo} 
 
