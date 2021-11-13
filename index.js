@@ -98,10 +98,7 @@ function init() {
                 console.log('README file completed')
             }
         })
-    },
     
-     e => {
-        console.log(`The file could not be generated because the user does not exist.`);
     })
 };
 
