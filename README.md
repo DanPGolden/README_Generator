@@ -21,7 +21,7 @@
   ## Installation 
   To install this application the user must clone the repository from GitHub into a code editor such as Visual Studio Code
   ## Usage 
-  The user must install node.js and then open the terminal in their code editor. From the command-line, the user is to type 'node index.js' to invoke the application. The user will then follow the prompts given.
+  The user must install node.js and then open the terminal in their code editor. From the command-line, the user is to type 'node index.js' to invoke the application. The user will then follow the prompts given. 
   ## Tests 
   n/a
   ## Contributing 
